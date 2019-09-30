@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+	<body>
+		<referenceContainer name="head.additional">
+			<block class="Sparacino\GTM\Block\Gtm" name="gtm.head" before="-" template="Sparacino_GTM::gtm_head.phtml" />
+		</referenceContainer>	
+		<referenceContainer name="after.body.start">
+			<block class="Sparacino\GTM\Block\Gtm" name="gtm.body" before="-" template="Sparacino_GTM::gtm_body.phtml" />
+		</referenceContainer>	
+	</body>
+</page>
