@@ -8,7 +8,7 @@ This extension helps the owner of store simply install code to work with Google 
 
 
 
-## How to install SMTP Extension
+## How to install Extension
 
 ### Install via composer (recommend)
 
